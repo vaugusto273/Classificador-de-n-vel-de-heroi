@@ -26,3 +26,26 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"*/
 
+let HeroName = "Vaugusto";
+let HeroXP = 1999;
+let HeroLevel = "";
+
+/*I Could choose to use a JSON like that below, but i prefer to do that in another challenge
+let Hero = {
+    Name: "",
+    XP: ""
+}*/
+
+switch(true){
+    case (HeroXP <= 1000):
+        HeroLevel = "Ferro"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 1001 && HeroXP <= 2000):
+        HeroLevel = "Bronze"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    default:
+        console.log("Error: XP out of bounds or with wrong value type");
+        break;
+}
