@@ -3,10 +3,10 @@
 
 **O Que deve ser utilizado**
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+- ✅ Variáveis
+- ✅ Operadores
+- ❓ Laços de repetição - I don't know exactly where use a loop, que only thing that came in my mind was to show the switch case working in any case
+- ✅ Estruturas de decisões
 
 ## Objetivo
 
