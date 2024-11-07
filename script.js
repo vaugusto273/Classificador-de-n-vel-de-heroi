@@ -27,7 +27,7 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"*/
 
 let HeroName = "Vaugusto";
-let HeroXP = 1999;
+let HeroXP = 99999;
 let HeroLevel = "";
 
 /*I Could choose to use a JSON like that below, but i prefer to do that in another challenge
@@ -43,6 +43,30 @@ switch(true){
         break;
     case (HeroXP >= 1001 && HeroXP <= 2000):
         HeroLevel = "Bronze"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 2001 && HeroXP <= 5000):
+        HeroLevel = "Prata"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 5001 && HeroXP <= 7000):
+        HeroLevel = "Ouro"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 7001 && HeroXP <= 8000):
+        HeroLevel = "Platina"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 8001 && HeroXP <= 9000):
+        HeroLevel = "Anscendente"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 9001 && HeroXP <= 10000):
+        HeroLevel = "Imortal"
+        console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
+        break;
+    case (HeroXP >= 10001):
+        HeroLevel = "Radiante"
         console.log(`O Herói de nome ${HeroName} está no nível de ${HeroLevel}`);
         break;
     default:
